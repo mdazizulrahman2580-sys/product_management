@@ -1,16 +1,17 @@
-<div>
-    {{-- Care about people's approval and you will be their prisoner. --}}
+
+
+
 
 <div>
- <x-nabvar/>
+ {{-- <x-nabvar/> --}}
 
 
 
     <div class="max-w-7xl mx-auto py-12">
              <div class="breadcrumbs text-sm p-6">
      <ul>
-     <li><a href="{{ route('home')}}">Home</a></li>
-     <li><a href="{{route('shop')}}">shop</a></li>
+     <li><a href="{{ route('frontend.home')}}">Home</a></li>
+     <li><a href="{{route('frontend.shop')}}">shop</a></li>
      <li><a>Men</a></li>
      <li><a>T-shirts</a></li>
     </ul>
@@ -316,6 +317,3 @@
 
      </div>
 
-
-
-</div>

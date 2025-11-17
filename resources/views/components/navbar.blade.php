@@ -14,7 +14,7 @@
         <ul class="flex items-center space-x-10">
           <li>
             <select class="select select-sm select-bordered border-gray-300 text-base font-medium text-gray-600 hover:text-red-500 transition">
-                 <a href="{{route('shop')}}"><option>Shop</option></a>
+                 <a href="{{route('frontend.shop')}}"><option>Shop</option></a>
               <option>Item</option>
               <option>Bun</option>
               <option>Yarn</option>
@@ -99,4 +99,5 @@
     </div>
   </div>
 </header>
+
 

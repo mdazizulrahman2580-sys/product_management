@@ -1,7 +1,4 @@
-<div>
-    {{-- Because she competes with no one, no one can compete with her. --}}
-    <div>
-    {{-- In work, do what you enjoy. --}}
+
 
 <div class="container mx-auto max-w-7xl ">
 
@@ -105,7 +102,7 @@
     {{-- 11111 --}}
   <div class="grid grid-col sm:grid-cols-2 md:grid-cols-3 mt-4 gap-4">
 
-   <a href="{{ route('product.details') }}"
+   <a href="{{ route('product-details') }}"
    class="bg-gray-50 p-4 md:h-100 md:w-70 text-center rounded-2xl shadow hover:shadow-lg transition">
     <img src="{{ asset('image/image 7.png') }}" alt="T-shirt" class="rounded-xl mx-auto mb-4">
     <h3 class="text-gray-800 font-semibold text-lg">T-shirt with Tape Details</h3>
@@ -113,7 +110,7 @@
     <p class="text-gray-800 font-bold">$120</p>
    </a>
 
-    <a href="{{route('product.details', )}}" class="bg-gray-50 p-4 md:h-100 md:w-70 text-center trounded-2xl shadow hover:shadow-lg transition">
+    <a href="{{route('product-details', )}}" class="bg-gray-50 p-4 md:h-100 md:w-70 text-center trounded-2xl shadow hover:shadow-lg transition">
       <img src="{{ asset('image/image 10.png') }}" alt="Jeans" class="rounded-xl mx-auto mb-4">
       <h3 class="text-gray-800 font-semibold text-lg">Skinny Fit Jeans</h3>
       <div class="flex items-center justify-center text-yellow-400 text-sm my-1">⭐ 3.8/5</div>
@@ -125,7 +122,7 @@
      </a>
 
 
-    <a href="{{route('product.details', )}}" class="bg-gray-50  md:h-100 md:w-70 p-4 rounded-2xl text-center shadow hover:shadow-lg transition">
+    <a href="{{route('product-details', )}}" class="bg-gray-50  md:h-100 md:w-70 p-4 rounded-2xl text-center shadow hover:shadow-lg transition">
       <img src="{{ asset('image/image 9.png') }}" alt="Striped T-shirt" class="rounded-xl mx-auto mb-4">
       <h3 class="text-gray-800 font-semibold text-lg">Sleeve Striped T-shirt</h3>
       <div class="flex items-center justify-center text-yellow-400 text-sm my-1">⭐ 4.1/5</div>
@@ -139,7 +136,7 @@
 {{-- 2222 --}}
  <div class="grid grid-col sm:grid-cols-2 md:grid-cols-3 mt-4 gap-4">
 
-   <a href="{{ route('product.details') }}"
+   <a href="{{ route('product-details') }}"
    class="bg-gray-50 p-4 md:h-100 md:w-70 text-center rounded-2xl shadow hover:shadow-lg transition">
     <img src="{{ asset('image/image 7.png') }}" alt="T-shirt" class="rounded-xl mx-auto mb-4">
     <h3 class="text-gray-800 font-semibold text-lg">T-shirt with Tape Details</h3>
@@ -147,7 +144,7 @@
     <p class="text-gray-800 font-bold">$120</p>
    </a>
 
-    <a href="{{route('product.details', )}}" class="bg-gray-50 p-4 md:h-100 md:w-70 text-center trounded-2xl shadow hover:shadow-lg transition">
+    <a href="{{route('product-details', )}}" class="bg-gray-50 p-4 md:h-100 md:w-70 text-center trounded-2xl shadow hover:shadow-lg transition">
       <img src="{{ asset('image/image 10.png') }}" alt="Jeans" class="rounded-xl mx-auto mb-4">
       <h3 class="text-gray-800 font-semibold text-lg">Skinny Fit Jeans</h3>
       <div class="flex items-center justify-center text-yellow-400 text-sm my-1">⭐ 3.8/5</div>
@@ -159,7 +156,7 @@
      </a>
 
 
-    <a href="{{route('product.details', )}}" class="bg-gray-50 md:h-100 md:w-70 p-4 rounded-2xl text-center shadow hover:shadow-lg transition">
+    <a href="{{route('product-details', )}}" class="bg-gray-50 md:h-100 md:w-70 p-4 rounded-2xl text-center shadow hover:shadow-lg transition">
       <img src="{{ asset('image/image 9.png') }}" alt="Striped T-shirt" class="rounded-xl mx-auto mb-4">
       <h3 class="text-gray-800 font-semibold text-lg">Sleeve Striped T-shirt</h3>
       <div class="flex items-center justify-center text-yellow-400 text-sm my-1">⭐ 4.1/5</div>
@@ -172,7 +169,7 @@
    </div>
  <div class="grid grid-col sm:grid-cols-2 md:grid-cols-3  mt-4 gap-4">
 
-   <a href="{{ route('product.details') }}"
+   <a href="{{ route('product-details') }}"
    class="bg-gray-50 p-4 md:h-100 md:w-70 text-center rounded-2xl shadow hover:shadow-lg transition">
     <img src="{{ asset('image/image 7.png') }}" alt="T-shirt" class="rounded-xl mx-auto mb-4">
     <h3 class="text-gray-800 font-semibold text-lg">T-shirt with Tape Details</h3>
@@ -180,7 +177,7 @@
     <p class="text-gray-800 font-bold">$120</p>
    </a>
 
-    <a href="{{route('product.details', )}}" class="bg-gray-50 p-4 md:h-100 md:w-70 text-center trounded-2xl shadow hover:shadow-lg transition">
+    <a href="{{route('product-details', )}}" class="bg-gray-50 p-4 md:h-100 md:w-70 text-center trounded-2xl shadow hover:shadow-lg transition">
       <img src="{{ asset('image/image 10.png') }}" alt="Jeans" class="rounded-xl mx-auto mb-4">
       <h3 class="text-gray-800 font-semibold text-lg">Skinny Fit Jeans</h3>
       <div class="flex items-center justify-center text-yellow-400 text-sm my-1">⭐ 3.8/5</div>
@@ -192,7 +189,7 @@
      </a>
 
 
-    <a href="{{route('product.details', )}}" class="bg-gray-50 md:h-100 md:w-70  p-4 rounded-2xl text-center shadow hover:shadow-lg transition">
+    <a href="{{route('product-details', )}}" class="bg-gray-50 md:h-100 md:w-70  p-4 rounded-2xl text-center shadow hover:shadow-lg transition">
       <img src="{{ asset('image/image 9.png') }}" alt="Striped T-shirt" class="rounded-xl mx-auto mb-4">
       <h3 class="text-gray-800 font-semibold text-lg">Sleeve Striped T-shirt</h3>
       <div class="flex items-center justify-center text-yellow-400 text-sm my-1">⭐ 4.1/5</div>
@@ -294,5 +291,3 @@
 
 
 
-
-</div>

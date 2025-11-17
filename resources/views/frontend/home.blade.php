@@ -1,5 +1,5 @@
-<div>
-    {{-- To attain knowledge, add things every day; To attain wisdom, subtract things every day. --}}
+
+    
 
     <div >
     {{-- Care about people's approval and you will be their prisoner. --}}
@@ -77,7 +77,7 @@
 
   <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
 
-   <a href="{{ route('product.details') }}"
+   <a href="{{ route('product-details') }}"
    class="bg-gray-50 p-4 text-center rounded-2xl shadow hover:shadow-lg transition">
     <img src="{{ asset('image/image 7.png') }}" alt="T-shirt" class="rounded-xl mx-auto mb-4">
     <h3 class="text-gray-800 font-semibold text-lg">T-shirt with Tape Details</h3>
@@ -85,7 +85,7 @@
     <p class="text-gray-800 font-bold">$120</p>
    </a>
 
-    <a href="{{route('product.details', )}}" class="bg-gray-50 p-4 text-center trounded-2xl shadow hover:shadow-lg transition">
+    <a href="{{route('product-details', )}}" class="bg-gray-50 p-4 text-center trounded-2xl shadow hover:shadow-lg transition">
       <img src="{{ asset('image/image 10.png') }}" alt="Jeans" class="rounded-xl mx-auto mb-4">
       <h3 class="text-gray-800 font-semibold text-lg">Skinny Fit Jeans</h3>
       <div class="flex items-center justify-center text-yellow-400 text-sm my-1">⭐ 3.8/5</div>
@@ -96,14 +96,14 @@
       </div>
      </a>
 
-    <a href="{{route('product.details', )}}" class="bg-gray-50 p-4 text-center rounded-2xl shadow hover:shadow-lg transition">
+    <a href="{{route('product-details', )}}" class="bg-gray-50 p-4 text-center rounded-2xl shadow hover:shadow-lg transition">
       <img src="{{ asset('image/image 10.png') }}" alt="Shirt" class="rounded-xl mx-auto mb-4">
       <h3 class="text-gray-800 font-semibold text-lg">Checkered Shirt</h3>
       <div class="flex items-center justify-center text-yellow-400 text-sm my-1">⭐ 4.5/5</div>
       <p class="text-gray-800 font-bold">$180</p>
     </a>
 
-    <a href="{{route('product.details', )}}" class="bg-gray-50 p-4 rounded-2xl text-center shadow hover:shadow-lg transition">
+    <a href="{{route('product-details', )}}" class="bg-gray-50 p-4 rounded-2xl text-center shadow hover:shadow-lg transition">
       <img src="{{ asset('image/image 9.png') }}" alt="Striped T-shirt" class="rounded-xl mx-auto mb-4">
       <h3 class="text-gray-800 font-semibold text-lg">Sleeve Striped T-shirt</h3>
       <div class="flex items-center justify-center text-yellow-400 text-sm my-1">⭐ 4.1/5</div>
@@ -232,7 +232,5 @@
 
 
 
-
-</div>
 
 </div>
