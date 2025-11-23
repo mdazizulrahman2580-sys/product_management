@@ -21,7 +21,7 @@ class ProductFactory extends Factory
 
             // category_id যদি থাকে
             'category_id' => rand(1, 5),
-
+            'name' => $this->faker->optional()->sentence(2),
             'price' => $this->faker->randomFloat(2, 100, 10000),
             'discount_price' => $this->faker->optional()->randomFloat(2, 50, 5000),
 

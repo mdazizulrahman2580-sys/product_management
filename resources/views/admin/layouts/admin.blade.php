@@ -37,7 +37,7 @@
                     Users
                 </a>
 
-                <a href="#"
+                <a href="{{ route('admin.products.index') }}"
                    class="block py-2 px-3 rounded-lg hover:bg-gray-700">
                     Products
                 </a>

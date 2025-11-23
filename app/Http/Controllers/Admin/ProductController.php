@@ -11,6 +11,6 @@ class ProductController extends Controller
     {
         $products = Product::all(); // Data fetch করুন
 
-        return view('admin.adminProduct.product', compact('products'));
+        return view('admin.adminproduct.product', compact('products'));
     }
 }

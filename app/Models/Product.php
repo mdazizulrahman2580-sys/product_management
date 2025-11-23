@@ -14,6 +14,7 @@ class Product extends Model
          'title',
         'slug',
         'category_id',
+        'name',
         'price',
         'discount_price',
         'stock',
@@ -23,6 +24,6 @@ class Product extends Model
 
       ];
 
-          
+
 }
 
