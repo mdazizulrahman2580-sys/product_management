@@ -5,8 +5,7 @@
     {{-- Care about people's approval and you will be their prisoner. --}}
     <div class="container mx-auto">
 
-    <x-nabvar/>
-
+  
    <div class="container mx-auto">
 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 bg-base-200 flex items-center py-16">
   <div class="flex flex-col-reverse lg:flex-row-reverse items-center gap-10">

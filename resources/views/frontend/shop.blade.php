@@ -1,8 +1,7 @@
-
-
-<div class="container mx-auto max-w-7xl ">
-
-
+@extends('layouts.app')
+@section('content')
+<x-navbar/>
+<div class="container mx-auto max-w-7xl py-20">
 <div class="flex flex-1 ">
     <div class="flex">
 <div class="bg-white  p-6 md:p-8 rounded-lg shadow-xl max-w-sm w-full">
@@ -290,4 +289,4 @@
 </div>
 
 
-
+@endsection

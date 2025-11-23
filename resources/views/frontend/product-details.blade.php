@@ -1,9 +1,11 @@
 
 
+@extends('layouts.app')
 
-
+@section('content')
+<x-navbar/>
 <div>
- {{-- <x-nabvar/> --}}
+
 
 
 
@@ -317,3 +319,4 @@
 
      </div>
 
+@endsection
