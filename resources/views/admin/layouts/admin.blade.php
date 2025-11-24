@@ -42,7 +42,7 @@
                     Products
                 </a>
 
-                <a href="#"
+                <a href="{{ route('admin.orders.index') }}"
                    class="block py-2 px-3 rounded-lg hover:bg-gray-700">
                     Orders
                 </a>
