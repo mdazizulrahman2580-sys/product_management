@@ -1,7 +1,7 @@
 <div>
-    {{-- In work, do what you enjoy. --}}
+    {{-- Close your eyes. Count to one. That is how long forever feels. --}}
     <div class="p-4">
-    <h2 class="text-xl mb-4">Create Order</h2>
+    <h2 class="text-xl mb-4">Edit Order</h2>
 
     @if (session()->has('success'))
         <div class="p-2 bg-green-200 text-green-800 mb-4 rounded">
@@ -9,7 +9,7 @@
         </div>
     @endif
 
-    <form wire:submit.prevent="save" class="space-y-4">
+    <form wire:submit.prevent="update" class="space-y-4">
 
         <div>
             <label>Customer Name</label>
@@ -36,7 +36,7 @@
         </div>
 
         <button class="bg-blue-600 text-white px-4 py-2 rounded">
-            Save Order
+            Update Order
         </button>
     </form>
 </div>

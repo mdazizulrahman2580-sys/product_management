@@ -14,7 +14,7 @@
         @break
 
         @case('admin.orders.show')
-            <livewire:backend.admin.order.show :id="request()->route('id')" />
+           <livewire:backend.admin.order.show :id="request()->route('id')" />
         @break
 
 

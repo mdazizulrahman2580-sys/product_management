@@ -8,14 +8,14 @@ use App\Models\Order;
 
 class Show extends Component
 {
-    public $orderId;
+    public $id;
     public $order;
 
-    public function mount($orderId)
-    {
-        $this->orderId = $orderId;
-        $this->order = Order::with('items')->findOrFail($orderId);
-    }
+public function mount($id)
+{
+    $this->id = $id;
+    $this->order = Order::with('items')->findOrFail($id);
+}
 
     public function render()
     {
