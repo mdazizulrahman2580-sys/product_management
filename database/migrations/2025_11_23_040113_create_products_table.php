@@ -19,14 +19,14 @@ return new class extends Migration
 
             $table->unsignedBigInteger('category_id')->nullable(); // category table থাকলে FK হবে
             $table->string('name')->nullable();
-            
+
             $table->decimal('price', 10, 2)->default(0);
             $table->decimal('discount_price', 10, 2)->nullable();
 
             $table->integer('stock')->default(0);
 
             $table->string('image')->nullable();  // thumbnail
-
+            $table->string('avatar')->nullable();
             $table->longText('description')->nullable();
 
             $table->tinyInteger('status')->default(1); // 1 = Active, 0 = Inactive

@@ -64,6 +64,8 @@ class UserController extends Controller
         $user->save();
 
         return redirect()->route('admin.users.index')->with('success', 'User updated!');
+
+
     }
 
 
@@ -72,4 +74,14 @@ class UserController extends Controller
         User::findOrFail($id)->delete();
         return redirect()->route('admin.users.index')->with('success', 'User deleted!');
     }
+
+    public function show($id)
+    {
+        $user = User::findOrFail($id);
+        return view('admin.user.show', compact('user'));
+    }
+    
 }
+
+
+

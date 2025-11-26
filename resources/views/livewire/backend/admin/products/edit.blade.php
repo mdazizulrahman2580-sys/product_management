@@ -13,6 +13,11 @@
             <option value="1">Active</option>
             <option value="0">Inactive</option>
         </select>
+        <input type="text" wire:model="description" class="border p-2 w-full mb-3">
+        <input type="text" wire:model="discount_price" class="border p-2 w-full mb-3">
+        <input type="file" wire:model="avatar" class="border p-2 w-full mb-3">
+
+
 
         <button class="px-4 py-2 bg-blue-600 text-white rounded">
             Update

@@ -10,7 +10,7 @@ class ProductController extends Controller
     public function index()
     {
         $products = Product::all(); // Data fetch করুন
-
+   
         return view('admin.adminproduct.product', compact('products'));
     }
 }
