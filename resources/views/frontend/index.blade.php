@@ -126,7 +126,7 @@
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
 
         @foreach($products as $product)
-        <a href="{{route('product-details', )}}"
+        <a href="{{ route('admin.admin.products.details', $product->id) }}"
            class="border p-4 rounded-lg shadow-md bg-white flex flex-col items-center text-center hover:shadow-xl transition">
 
             <img src="{{ asset('storage/' . $product->avatar) }}"

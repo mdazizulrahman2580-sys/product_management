@@ -24,6 +24,12 @@ class Product extends Model
         'status',
 
       ];
+      protected $casts = [
+    'images' => 'array',
+    'colors' => 'array',
+    'sizes'  => 'array',
+];
+
 
 
 }

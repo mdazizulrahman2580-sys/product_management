@@ -4,6 +4,7 @@ use App\Http\Controllers\Admin\ProductController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Admin\UserController;
 use App\Http\Controllers\Admin\OrderController;
+use App\Livewire\backend\Admin\Products\Details;
 
 
 Route::prefix('admin')->middleware('auth')->group(function() {
@@ -43,6 +44,9 @@ Route::prefix('product')->name('admin.')->group(function () {
 
     Route::get('/products/{id}/show', [ProductController::class, 'index'])
         ->name('products.show');
+
+        Route::get('/products/{id}/details', Details::class)
+        ->name('admin.products.details');
 });
 
 Route::prefix('order')->name('admin.')->group(function () {

@@ -17,6 +17,10 @@
             <livewire:backend.admin.products.show :id="request()->route('id')" />
         @break
 
+        @case('admin.admin.products.details')
+            <livewire:backend.admin.products.details :id="request()->route('id')" />
+        @break
+
 
         @default
             <livewire:backend.admin.products.index />
