@@ -23,7 +23,8 @@ class Create extends Component
     // File upload handling
     $path = null;
     if ($this->avatar) {
-        $path = $this->avatar->store('products', 'public');
+   $path = $this->avatar->store('products', 'public');
+   $filename = basename($path);
     }
 
     Product::create([
@@ -33,7 +34,8 @@ class Create extends Component
         'description' => $this->description,
         'discount_price' => $this->discount_price,
         'avatar' => $path, // FIXED: correct storage path
-        'status' => $this->status
+        'status' => $this->status,
+        'thumbnail' => $filename
     ]);
 
     return redirect()->route('admin.products.index')

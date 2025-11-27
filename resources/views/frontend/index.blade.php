@@ -19,6 +19,7 @@
     </div>
 
 
+
     <div class="w-full lg:w-1/2 text-center lg:text-left">
       <h1 class="text-3xl sm:text-4xl md:text-5xl font-extrabold leading-tight text-gray-900">
         FIND CLOTHES <br class="hidden sm:block" /> THAT MATCHES <br class="hidden sm:block" /> YOUR STYLE
@@ -119,6 +120,30 @@
     </button>
   </div>
 </section>
+
+    {{-- database load --}}
+   <div class="container mx-auto py-8">
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+
+        @foreach($products as $product)
+        <a href="{{route('product-details', )}}"
+           class="border p-4 rounded-lg shadow-md bg-white flex flex-col items-center text-center hover:shadow-xl transition">
+
+            <img src="{{ asset('storage/' . $product->avatar) }}"
+                 alt="{{ $product->name }}"
+                 class="w-full h-full object-cover rounded mb-3">
+
+            <p class="text-gray-800 font-medium mt-1">{{ $product->title }}</p>
+            <p class="text-yellow-400 font-bold mt-1">⭐ {{ $product->discount_price }}</p>
+            <p class="text-red-600 font-semibold text-lg">৳ {{ $product->price }}</p>
+            <p class="text-gray-600 text-sm mt-1">{{ $product->description }}</p>
+
+        </a>
+        @endforeach
+
+    </div>
+</div>
+
 
 
 
