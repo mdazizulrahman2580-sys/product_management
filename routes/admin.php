@@ -47,6 +47,10 @@ Route::prefix('product')->name('admin.')->group(function () {
 
         Route::get('/products/{id}/details', Details::class)
         ->name('admin.products.details');
+
+        
+
+
 });
 
 Route::prefix('order')->name('admin.')->group(function () {

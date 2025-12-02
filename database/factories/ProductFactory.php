@@ -32,8 +32,32 @@ class ProductFactory extends Factory
             'image' => $this->faker->imageUrl(600, 600, 'product'),
 
             'description' => $this->faker->paragraph(5),
-
+            
             'status' => 1,
+            'colors' => $this->faker->randomElements(['Red', 'Blue', 'Green', 'Black', 'White'], rand(1, 5)),
+            'sizes' => $this->faker->randomElements(['S', 'M', 'L', 'XL', 'XXL'], rand(1, 5)),  
+            'main_image' => $this->faker->imageUrl(800, 800, 'product'),
+            'mainTitle' => $this->faker->sentence(3),
+            'mainPrice' => $this->faker->randomFloat(2, 100, 10000),
+            'mainDescription' => $this->faker->paragraph(4),
+
+            'selling_price' => $this->faker->randomFloat(2, 80, 9000),
+            'rating' => $this->faker->randomFloat(1, 0, 5),
+            'images' => [
+                $this->faker->imageUrl(600, 600, 'product'),
+                $this->faker->imageUrl(600, 600, 'product'),
+                $this->faker->imageUrl(600, 600, 'product'),
+            ],
+            'image_1' => $this->faker->imageUrl(600, 600, 'product'),
+            'title_1' => $this->faker->sentence(3),
+            'price_1' => $this->faker->randomFloat(2, 50, 5000),
+            'description_1' => $this->faker->paragraph(3),
+
+            'image_2' => $this->faker->imageUrl(600, 600, 'product'),
+            'title_2' => $this->faker->sentence(3),
+            'price_2' => $this->faker->randomFloat(2, 50, 5000),
+            'description_2' => $this->faker->paragraph(3),
+            
         ];
     }
 }

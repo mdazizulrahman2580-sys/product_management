@@ -52,11 +52,13 @@
                    
 
                          @if ($product->avatar)
-                            <img src="{{ asset('storage/' . $product->avatar) }}" alt="Product Image"
+                            <img src="{{ asset('storage/' . $product->avatar) }}" alt="Avatar"
                                 class="w-12 h-12  object-cover rounded-full">
                         @else
                             <span class="text-gray-500">No Image</span>
                         @endif
+                    
+
                     </td>
 
 
