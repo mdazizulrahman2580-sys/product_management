@@ -68,17 +68,7 @@ public $imagelist = [];
         $this->mainDescription = $this->product->description;
 
         // COLORS / SIZES FIX
-      $this->product->colors = is_array($this->product->colors) ? $this->product->colors : 
-        ['#4f6d4a', '#212121', '#283350']; // Added fallback colors
-        $this->product->sizes  = is_array($this->product->sizes)  ? $this->product->sizes  : ['Small', 'Medium', 'Large', 'X-Large']; // Added fallback sizes
-
-        // Default Selections
-        $this->selectedColor = $this->product->colors[0] ?? null;
-        $this->selectedSize  = $this->product->sizes[2] ?? 'Large'; // Set default size to 'Large' to ma
-        $this->selectedSize  = in_array($this->selectedSize, $this->product->sizes) ? $this->selectedSize : $this->product->sizes[0] ?? null;
-        // DEFAULT SELECTED COLOR & SIZE
-        $this->selectedColor = $this->colors[0] ?? null;
-        $this->selectedSize  = $this->sizes[0] ?? null;
+   
     }
 
     // MAIN IMAGE CHANGER

@@ -6,14 +6,14 @@ use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ShopController;
 use App\Http\Controllers\ProductDetailsController;
 use App\Http\Controllers\IndexController;
-
+use App\livewire\Frontend\cartPage;
 
     Route::get('/', [IndexController::class, 'index'])->name('frontend.index');
     Route::get('/shop', [ShopController::class, 'index'])->name('frontend.shop');
     Route::get('/product-details', [ProductDetailsController::class, 'index'])->name('product-details');
     Route::get('/home', [HomeController::class, 'index'])->name('frontend.home');
 
-
+    Route::get('/cart', CartPage::class)->name('frontend.cart');
 
 
 // Route::get('/', function () {

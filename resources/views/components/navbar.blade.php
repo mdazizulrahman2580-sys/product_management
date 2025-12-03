@@ -57,6 +57,18 @@
                         >
                             Dashboard
                         </a>
+                                                 <a href="{{ route('frontend.cart') }}" class="relative">
+    <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-gray-700" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M3 3h2l3.6 7.59-1.35 2.44A2 2 0 0 0 9 16h10v-2H9.42a.25.25 0 0 1-.22-.13l.03-.06L10.1 13h7.45a2 2 0 0 0 1.8-1.1l3.24-6.49A1 1 0 0 0 21.7 4H5.21l-.94-2H1V3z"/>
+    </svg>
+
+    <!-- Dynamic Cart Count -->
+    <span 
+        class="absolute -top-2 -right-2 bg-red-600 text-white text-xs font-bold px-2 py-1 rounded-full">
+        {{ \App\Models\CartItem::where('user_id', Auth::id())->count() }}
+    </span>
+</a>
+
                     @else
                         <a
                             href="{{ route('login') }}"
@@ -71,6 +83,9 @@
                                 class="inline-block px-5 py-1.5 dark:text-[#EDEDEC] border-[#19140035] hover:border-[#1915014a] border text-[#1b1b18] dark:border-[#3E3E3A] dark:hover:border-[#62605b] rounded-sm text-sm leading-normal">
                                 Register
                             </a>
+                          
+   
+
                         @endif
                     @endauth
                 </nav>
