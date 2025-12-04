@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Livewire\Backend\Admin\Products;
+namespace App\Livewire\backend\Admin\Products;
 
 use Livewire\Component;
 use Livewire\WithFileUploads;

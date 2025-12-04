@@ -15,6 +15,7 @@ class Create extends Component
  public function save()
 {
     $this->validate([
+
         'title' => 'required',
         'price' => 'required|numeric',
         'avatar' => 'nullable|image|max:2048',
