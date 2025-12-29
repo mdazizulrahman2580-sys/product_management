@@ -25,7 +25,8 @@
         </div>
 
         {{-- Orders Table --}}
-        <table class="table-auto w-full border-collapse border border-gray-300 text-left">
+        <table class="table-auto w-full border-col
+        lapse border border-gray-300 text-left">
             <thead>
                 <tr class="bg-gray-100 border-b">
                     <th class="px-4 py-2 font-semibold">ID</th>
