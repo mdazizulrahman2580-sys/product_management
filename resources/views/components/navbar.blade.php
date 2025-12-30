@@ -34,7 +34,8 @@
 
       <div class="flex items-center gap-4">
 
-        <div class="hidden md:block  w-full md:w-[100px] lg:w-[350px] xl:w-[450px]">
+       <div class="w-full sm:w-[120px] md:w-[200px] lg:w-[300px] xl:w-[450px]">
+        
           <label class="input flex items-center gap-2 h-10 w-full border rounded-lg px-3">
             <svg class="h-4 w-4 text-gray-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
               <g stroke-linejoin="round" stroke-linecap="round" stroke-width="2.5" fill="none" stroke="currentColor">

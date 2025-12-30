@@ -6,24 +6,24 @@
 
 
    <div class="container mx-auto">
-<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 bg-base-200 flex items-center py-16">
-  <div class="flex flex-col-reverse lg:flex-row-reverse items-center gap-10">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 bg-base-200 py-16">
+  <div class="flex flex-col lg:flex-row items-center gap-10">
 
-
-    <div class="w-full lg:w-1/2 mt-10 lg:mt-0 flex justify-center">
+    <div class="w-full lg:w-1/2 flex justify-center order-1 lg:order-2">
       <img
         src="{{ asset('image/Rectangle_2.png') }}"
-        class="object-cover w-full max-w-md h-auto rounded-lg "
+        class="object-cover w-full max-w-md h-auto rounded-lg"
         alt="Hero Image"
       />
     </div>
 
-
-
-    <div class="w-full lg:w-1/2 text-center lg:text-left">
+    <div class="w-full lg:w-1/2 text-center lg:text-left order-2 lg:order-1">
       <h1 class="text-3xl sm:text-4xl md:text-5xl font-extrabold leading-tight text-gray-900">
-        FIND CLOTHES <br class="hidden sm:block" /> THAT MATCHES <br class="hidden sm:block" /> YOUR STYLE
+        FIND CLOTHES <br class="hidden sm:block" />
+        THAT MATCHES <br class="hidden sm:block" />
+        YOUR STYLE
       </h1>
+
       <p class="mt-6 text-gray-600 text-base sm:text-lg leading-relaxed">
         Browse through our diverse range of meticulously crafted garments, designed to bring out your individuality and cater to your sense of style.
       </p>
@@ -37,10 +37,12 @@
           <p class="text-2xl sm:text-3xl font-bold">200+</p>
           <p class="text-sm text-gray-500">International Brands</p>
         </div>
+
         <div class="sm:border-l border-gray-300 sm:pl-10">
           <p class="text-2xl sm:text-3xl font-bold">2,000+</p>
           <p class="text-sm text-gray-500">High-Quality Products</p>
         </div>
+
         <div class="sm:border-l border-gray-300 sm:pl-10">
           <p class="text-2xl sm:text-3xl font-bold">30,000+</p>
           <p class="text-sm text-gray-500">Happy Customers</p>
@@ -50,6 +52,7 @@
 
   </div>
 </div>
+
 
 
 
@@ -67,7 +70,7 @@
 </div>
 
 </div>
-{{-- 222 --}}
+
 
   <section class="max-w-7xl mx-auto px-4 py-16 bg-white">
   <h2 class="text-3xl md:text-4xl font-extrabold text-center mb-12 tracking-wide">
